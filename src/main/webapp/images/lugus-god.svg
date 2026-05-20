@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+  <!-- Cruz gamada (Celtic swastika) background -->
+  <polygon points="135,50 165,50 165,135 250,135 250,165 165,165 165,250 135,250 135,165 50,165 50,135 135,135"
+    fill="none" stroke="currentColor" stroke-width="2.5" opacity="0.25"/>
+  <!-- Concentric circles -->
+  <circle cx="150" cy="150" r="95" fill="none" stroke="currentColor" stroke-width="1.5" opacity="0.15"/>
+  <circle cx="150" cy="150" r="85" fill="none" stroke="currentColor" stroke-width="0.8" opacity="0.1"/>
+  <!-- Lugus figure -->
+  <g fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Halo / solar disk behind head -->
+    <circle cx="150" cy="115" r="16" stroke-width="1" opacity="0.3"/>
+    <circle cx="150" cy="115" r="13" stroke-width="0.6" opacity="0.2"/>
+    <!-- Head -->
+    <circle cx="150" cy="115" r="10" stroke-width="2"/>
+    <!-- Celtic crown / antler-like headdress -->
+    <path d="M140 106 L128 90 L136 102"/>
+    <path d="M160 106 L172 90 L164 102"/>
+    <path d="M150 105 L150 88"/>
+    <path d="M143 108 L136 96"/>
+    <path d="M157 108 L164 96"/>
+    <!-- Neck torc -->
+    <path d="M140 125 C140 130 160 130 160 125" stroke-width="3"/>
+    <!-- Shoulders -->
+    <path d="M140 128 L110 115"/>
+    <path d="M160 128 L190 115"/>
+    <!-- Raised arms -->
+    <path d="M110 115 L95 95"/>
+    <path d="M190 115 L205 95"/>
+    <!-- Hands open -->
+    <path d="M92 93 L95 95 L98 93"/>
+    <path d="M202 93 L205 95 L208 93"/>
+    <!-- Spear in right hand -->
+    <line x1="205" y1="95" x2="230" y2="60" stroke-width="2.5"/>
+    <path d="M230 60 L235 48 L227 56 M227 56 L233 54" stroke-width="2"/>
+    <!-- Shield in left hand -->
+    <ellipse cx="88" cy="100" rx="18" ry="24" stroke-width="1.8" transform="rotate(-15,88,100)"/>
+    <line x1="88" y1="76" x2="88" y2="124" transform="rotate(-15,88,100)"/>
+    <!-- Body / torso -->
+    <path d="M150 128 L150 172"/>
+    <!-- Chest plate / armor -->
+    <path d="M142 135 L158 135 L155 155 L145 155 Z" stroke-width="1.2"/>
+    <!-- Belt -->
+    <ellipse cx="150" cy="173" rx="14" ry="4" stroke-width="2.5"/>
+    <!-- Legs -->
+    <path d="M150 175 L130 215"/>
+    <path d="M150 175 L170 215"/>
+    <!-- Feet -->
+    <line x1="130" y1="215" x2="120" y2="215" stroke-width="2.5"/>
+    <line x1="170" y1="215" x2="180" y2="215" stroke-width="2.5"/>
+    <!-- Knee guards -->
+    <circle cx="138" cy="195" r="3" stroke-width="1"/>
+    <circle cx="162" cy="195" r="3" stroke-width="1"/>
+  </g>
+  <!-- Celtic triskelion/ornament near feet -->
+  <g stroke="currentColor" stroke-width="0.8" opacity="0.15" fill="none">
+    <path d="M120 230 C115 225 115 220 120 218 C125 216 128 220 125 225"/>
+    <path d="M180 230 C185 225 185 220 180 218 C175 216 172 220 175 225"/>
+  </g>
+</svg>
