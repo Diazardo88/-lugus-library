@@ -41,6 +41,9 @@ public class DatabaseInitListener implements ServletContextListener {
             st.executeUpdate("INSERT IGNORE INTO users (email, password, role) "
                 + "VALUES ('admin@lugus.com', SHA2('admin123', 256), 'admin')");
 
+            st.executeUpdate("INSERT IGNORE INTO users (email, password, role) "
+                + "VALUES ('rodri.diazramos99@gmail.com', SHA2('admin123', 256), 'admin')");
+
             System.out.println("Database initialized successfully");
 
         } catch (Exception e) {
